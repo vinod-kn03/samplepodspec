@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'Commercial', :text => 'See Vinod K N' }
   spec.author             = { "Vinod K N" => "..." }
 # spec.swift_version      = "5.3"
-  spec.source            = { :https://github.com/vinod-kn03/samplepodspec.git' }
+  spec.source            = { :'https://github.com/vinod-kn03/samplexcframework.git' }
   spec.ios.vendored_frameworks = 'MySampleSDK.xcframework'
 end
