@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "MySampleSDK"
-  spec.version            = "0.0.1"
+  spec.version            = "1.0.0"
   spec.platform = :ios, '16.4'
   spec.ios.deployment_target = '16.4'
   spec.summary            = "My Sample SDK"
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'Commercial', :text => 'See Vinod K N' }
   spec.author             = { "Vinod K N" => "..." }
 # spec.swift_version      = "5.3"
-  spec.source            = { :http => 'https://github.com/my-org/my-framework-podspecs/releases/download/0.0.1/MyFramework.xcframework.zip' }
+  spec.source            = { :http => 'https://github.com/vinod-kn03/samplepodspec/releases/tag/1.0.0/MySampleSDK.xcframework.zip' }
   spec.ios.vendored_frameworks = 'MySampleSDK.xcframework'
 end
