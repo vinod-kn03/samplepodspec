@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'Commercial', :text => 'See Vinod K N' }
   spec.author             = { "Vinod K N" => "..." }
 # spec.swift_version      = "5.3"
-  spec.source            = { :http => 'https://github.com/vinod-kn03/samplexcframework/IDScanningAPI.xcframework.zip' }
+  spec.source            = { :http => 'https://github.com/vinod-kn03/samplexcframework/MySampleSDK.xcframework.zip' }
   spec.dependency 'PPBlinkID', '~> 6.2.1'
-  spec.ios.vendored_frameworks = 'IDScanningAPI.xcframework'
+  spec.ios.vendored_frameworks = 'MySampleSDK.xcframework'
 end
