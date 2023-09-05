@@ -12,5 +12,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "Vinod K N" => "..." }
 # spec.swift_version      = "5.3"
   spec.source            = { :http => 'https://github.com/vinod-kn03/samplexcframework/MySampleSDK.xcframework.zip' }
+  spec.dependency 'PPBlinkID', '~> 6.2.1'
   spec.ios.vendored_frameworks = 'MySampleSDK.xcframework'
 end
